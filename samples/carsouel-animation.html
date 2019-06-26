@@ -6,8 +6,27 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Carousel</title>
   <link rel="stylesheet" href="../lib/carousel.css">
+  <style>
+    .select {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 30px;
+    }
+    .carousel {
+      margin: 0 auto;
+    }
+  </style>
 </head>
 <body>
+  <div class="select">
+    选择效果
+    <select>
+      <option value="fade">fade</option>
+      <option value="cssSlide">cssSlide</option>
+      <option value="cssZoom">cssZoom</option>
+    </select>
+  </div>
   <div class="carousel">
     <div class="panels">
       <a href="#"><img src="http://cdn.jirengu.com/book.jirengu.com/img/1.jpg"></a>
@@ -27,6 +46,8 @@
         </div>
     </div>
   </div>
+
+
   
 
   <script src="../lib/carousel-animation.js"></script>
