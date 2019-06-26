@@ -1,4 +1,4 @@
 # wheel-carousel
 A carousel plugin written by VanillaJS.
 
-visit https://jirengu.github.io/wheel-carousel/samples/carsouel.html
+visit https://jirengu.github.io/wheel-carousel/samples/carousel-animation.html
